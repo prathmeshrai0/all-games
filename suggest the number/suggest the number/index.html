@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h2>Welcome to the game canvas</h2>
+        <h4 class="discription">In "Guess the Number game", players try to guess a secret number within a specified range. They receive feedback after each guess to help narrow down the possibilities until they guess correctly.
+        </h4>
+        <div class="note">
+            Note : lesser number of your attempes will decide you that you you are a great player.
+                        </div>
+    </div>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>Guess a number between 1 and 100:</p>
+        <input type="number" id="guessField">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p class="message" id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
